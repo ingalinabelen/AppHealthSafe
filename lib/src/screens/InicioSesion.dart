@@ -20,6 +20,7 @@ class InicioSesion extends StatelessWidget {
       backgroundColor: Color(0xff175676),
       body: ListView(
         children: <Widget>[
+          Container(height: 50,width: 50,),
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 10),
             child: Column(
